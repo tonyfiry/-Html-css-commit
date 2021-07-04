@@ -1,0 +1,25 @@
+table{
+    width: 400px;
+    border-collapse: collapse;
+    text-align: center;
+}
+td{
+    border-bottom: 1px solid;
+    border-color: black;
+    text-align: center;
+}
+tr:nth-child(1){
+    background-color: hotpink;
+    color: khaki;
+    text-align: center;
+}
+tr:nth-child(2){
+    background-color:green;
+    color: khaki;
+    text-align: center;
+}
+tr:nth-child(3){
+    background-color:rgb(28, 136, 100);
+    color: khaki;
+    text-align: center;
+}
