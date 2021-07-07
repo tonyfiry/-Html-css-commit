@@ -1,0 +1,31 @@
+body{
+	margin:0px;
+}
+nav{
+	display:flex;
+}
+nav>.logo{
+	flex:none; width:100px;padding:10px;
+	background-color: rgb(0, 153, 204);
+}
+nav>.wenu{
+	flex:auto;padding:10px;
+	background-color: #006699;
+}
+nav>.user{
+	flex:none; width:100px;padding:10px;
+	background-color: #00FF00;
+}
+/*main設定樣式*/
+/*main設成容器*/
+main{
+	display:flex;/*用display設定flex*/flex-wrap:wrap;
+	/*ailgn-items:stretch;*/
+	justify-content:center;/*水平樣式語法*/
+	background-color: #ffa500;
+}
+/*項目*/
+main>.item{
+	flex:none;/*讓flex變成沒有東西*/
+	width:300px;margin:10px;/*寬度設成30PX和外邊框10PX*/
+	background-color: #00ff00;
